@@ -1,5 +1,44 @@
 /*Introdução de elementos*/
 body{
     background-color:rgb(95, 155, 190);
-    text-align : center;
+    border:10px purple solid;
+    margin:auto; /*5px 10px 15px 15px*/
+    padding : 0 auto;
+}
+/*Requisição ID*/
+#bodyindex{
+    background-color:antiquewhite;
+}
+h1 {
+     text-align: center;
+     color:black;
+}
+p{
+    color :black;
+}
+table tr {
+    text-align:center;
+}
+/* Estrutura do menu*/
+.menu{
+    list-style: none;
+    border: 2px solid black;
+    float: left;
+}
+.menu li{
+    position:relative;
+    float : left;
+    border-right: 2px solid black;
+}
+.menu.li a {
+    color:rgb(194, 61, 61);
+    text-decoration:none;
+    padding: 5px 10px;
+    display:block;
+}
+.menu li a:hover {
+    background-color:black;
+    color:aquamarine;
+    box-shadow: 5px 10px wheat;
+
 }
